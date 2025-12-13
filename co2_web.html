@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE SET 02</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .bg_img {
+            background-image: url("https://www.shutterstock.com/image-illustration/carbon-dioxide-co2-molecule-model-260nw-2158586429.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+        }
+
+        b {
+            text-decoration: underline;
+            font-size: 25px;
+            color: white;
+        }
+
+        p {
+            color: black;
+            background: rgba(255,255,255,0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .container {
+            padding: 15px;
+            box-shadow: 2px 4px 8px gray;
+            background-color: skyblue;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .main-img {
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+            border-radius: 5px;
+        }
+
+        .button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: grey;
+            color: wheat;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button a {
+            color: wheat;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 20px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg_img">
+
+    <b>CARBON DIOXIDE :-</b>
+
+    <p>
+        Carbon dioxide (CO<sub>2</sub>) is a natural, colorless, odorless gas vital for life
+        (photosynthesis in plants and animal respiration). It is also a major greenhouse gas
+        produced by fossil fuel combustion, playing a significant role in climate change.
+    </p>
+
+    <div class="box">
+        <div class="container">
+            <h1>Carbon Dioxide Equation</h1>
+            <h2>CO + O<sub>2</sub> → CO<sub>2</sub></h2>
+
+            <video class="main-img" controls loop muted>
+                <source src="https://media.gettyimages.com/id/142769138/video/animation-of-rotating-carbon-dioxide-molecule.mp4?s=mp4-640x640-gi&k=20&c=vEEsY3M-KA9LgHE7LI_o3tcjw_GpN-jxBG88bA4rFds=" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <button class="button">
+        <a href="chemistry-notes.html">NOTES OF CHEMISTRY</a>
+    </button>
+
+    <div class="links">
+        <a href="moreinfo.html">More Info</a>
+        <a href="contact.html">Click Here</a>
+        <a href="notes.html">Notes</a>
+    </div>
+
+</body>
+</html>
